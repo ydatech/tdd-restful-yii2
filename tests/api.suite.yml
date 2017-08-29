@@ -1,0 +1,10 @@
+class_name: ApiTester
+modules:
+    enabled:
+        - Yii2:
+            part: [fixtures]
+        - REST:
+            depends: Yii2
+        - \Helper\Api
+    config:
+        - Yii2
